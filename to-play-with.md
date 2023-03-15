@@ -6,7 +6,7 @@ https://github.com/caesarHQ/textSQL
 
 langchain model toolchains / generic API?
 https://langchain.readthedocs.io/en/latest/index.html
-eg try this out on a a set of coruse materials in md
+eg try this out on a a set of course materials in md
 https://github.com/hwchase17/notion-qa
 
 
