@@ -18,3 +18,6 @@ https://github.com/koaning/embetter
 
 Data wrangling with foundation models
 https://github.com/hazyresearch/meerkat
+
+Sentence transformers - semantic search in py
+https://www.sbert.net/index.html
