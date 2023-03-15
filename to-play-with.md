@@ -16,3 +16,5 @@ https://simonwillison.net/2023/Mar/13/alpaca/
 Useful embeddings (scikitlearn pipelines for various embedding generators)
 https://github.com/koaning/embetter
 
+Data wrangling with foundation models
+https://github.com/hazyresearch/meerkat
