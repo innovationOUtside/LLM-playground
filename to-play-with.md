@@ -34,3 +34,10 @@ https://github.com/jupyterlab/jupyter-ai
 
 Stable Diffusion locally served web-ui
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+
+## Evaluation
+
+Evaluating language chains
+https://blog.langchain.dev/evaluation/
+
