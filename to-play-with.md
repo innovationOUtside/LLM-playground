@@ -21,3 +21,12 @@ https://github.com/hazyresearch/meerkat
 
 Sentence transformers - semantic search in py
 https://www.sbert.net/index.html
+
+## Next gen Uis
+
+Gpt4 assisted coding environment
+https://www.cursor.so/
+
+Jupyter-ai
+https://github.com/jupyterlab/jupyter-ai
+
