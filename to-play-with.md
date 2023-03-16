@@ -12,6 +12,7 @@ https://github.com/hwchase17/notion-qa
 
 Running LLM on local devices eg Stanford Alpaca
 https://simonwillison.net/2023/Mar/13/alpaca/
+https://github.com/antimatter15/alpaca.cpp
 
 Useful embeddings (scikitlearn pipelines for various embedding generators)
 https://github.com/koaning/embetter
