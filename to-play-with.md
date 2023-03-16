@@ -30,3 +30,7 @@ https://www.cursor.so/
 Jupyter-ai
 https://github.com/jupyterlab/jupyter-ai
 
+## Image models
+
+Stable Diffusion locally served web-ui
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
