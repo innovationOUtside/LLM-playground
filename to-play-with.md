@@ -27,6 +27,11 @@ https://github.com/hazyresearch/meerkat
 Sentence transformers - semantic search in py
 https://www.sbert.net/index.html
 
+Memorising transformers
+https://pub.towardsai.net/extending-transformers-by-memorizing-up-to-262k-tokens-f9e066108777
+https://github.com/lucidrains/memorizing-transformers-pytorch
+
+
 ## React
 
 https://interconnected.org/home/2023/03/16/singularity
