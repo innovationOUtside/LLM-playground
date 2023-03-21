@@ -8,6 +8,7 @@ langchain model toolchains / generic API?
 https://langchain.readthedocs.io/en/latest/index.html
 eg try this out on a a set of course materials in md
 https://github.com/hwchase17/notion-qa
+https://github.com/logspace-ai/langflow
 
 
 Running LLM on local devices eg Stanford Alpaca
