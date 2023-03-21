@@ -27,6 +27,11 @@ https://github.com/hazyresearch/meerkat
 Sentence transformers - semantic search in py
 https://www.sbert.net/index.html
 
+
+Alpaca fine tuning
+https://www.davidmaiolo.com/portfolio-item/the-rise-of-alpaca-ai-a-cheaper-alternative-to-chatgpt/
+
+
 Memorising transformers
 https://pub.towardsai.net/extending-transformers-by-memorizing-up-to-262k-tokens-f9e066108777
 https://github.com/lucidrains/memorizing-transformers-pytorch
