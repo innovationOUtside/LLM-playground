@@ -32,6 +32,8 @@ https://www.sbert.net/index.html
 Llama / Alpaca fine tuning
 https://www.davidmaiolo.com/portfolio-item/the-rise-of-alpaca-ai-a-cheaper-alternative-to-chatgpt/
 https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson
+https://github.com/lxe/simple-llama-finetuner
+
 
 Memorising transformers
 https://pub.towardsai.net/extending-transformers-by-memorizing-up-to-262k-tokens-f9e066108777
