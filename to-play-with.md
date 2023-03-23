@@ -48,8 +48,9 @@ https://til.simonwillison.net/llms/python-react-pattern
 
 ## In-browser / WASM
 
-Stable difusion
+Stable diffusion
 https://github.com/mlc-ai/web-stable-diffusion
+https://github.com/ggerganov/llama.cpp/issues/97
 
 
 ## Next gen Uis
