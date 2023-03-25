@@ -18,6 +18,9 @@ https://github.com/antimatter15/alpaca.cpp
 https://replicate.com/blog/replicate-alpaca
 https://cocktailpeanut.github.io
 https://github.com/tloen/alpaca-lora
+https://github.com/abetlen/llama-cpp-python
+
+
 
 Useful embeddings (scikitlearn pipelines for various embedding generators)
 https://github.com/koaning/embetter
