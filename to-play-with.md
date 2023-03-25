@@ -4,6 +4,9 @@ https://xenova.github.io/transformers.js/
 TextSQL natural language queries, eg over US population dataset
 https://github.com/caesarHQ/textSQL
 
+Open source LLM  
+Dolly / eleuther ai https://github.com/databrickslabs/dolly
+
 langchain model toolchains / generic API?
 https://langchain.readthedocs.io/en/latest/index.html
 eg try this out on a a set of course materials in md
