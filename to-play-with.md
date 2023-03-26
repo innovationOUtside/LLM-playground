@@ -42,7 +42,12 @@ https://github.com/lxe/simple-llama-finetuner
 https://github.com/tloen/alpaca-lora/issues/45
 https://github.com/gururise/AlpacaDataCleaned
 
-Memorising transformers
+
+## Custom knowledge source
+https://github.com/geeks-of-data/knowledge-gpt
+
+
+## Memorising transformers
 https://pub.towardsai.net/extending-transformers-by-memorizing-up-to-262k-tokens-f9e066108777
 https://github.com/lucidrains/memorizing-transformers-pytorch
 
