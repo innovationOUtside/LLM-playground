@@ -147,7 +147,7 @@ How can we test or evaluate LLMs?
 - Evaluating language chains
 https://blog.langchain.dev/evaluation/
 
-## Browser Based LLMs
+## Browser Based Generative Models
 
 There are various demonstrations of running LLMs and other generative systems purely in a browser. To run models in the browser, two implementation approaches are possible: Javascript based models and WASM models.
 
