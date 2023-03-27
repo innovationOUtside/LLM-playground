@@ -23,7 +23,9 @@ https://cocktailpeanut.github.io
 https://github.com/tloen/alpaca-lora
 https://github.com/abetlen/llama-cpp-python
 
+## Plugin frameworks
 
+- Llama plugin POC https://github.com/lastmile-ai/llama-retrieval-plugin
 
 Useful embeddings (scikitlearn pipelines for various embedding generators)
 https://github.com/koaning/embetter  
