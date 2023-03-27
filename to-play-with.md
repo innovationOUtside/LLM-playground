@@ -140,7 +140,7 @@ Note that `langchain` provides hooks for a wide range of *agents*, including sea
 
 It's quite easy to hook in custom defined agents into `langchain`. For example:
 
-- chatting about baseball stats: https://gist.github.com/geoffreylitt/b345e5a3fcc18368df04b49f6924c217 [about](https://www.geoffreylitt.com/2023/01/29/fun-with-compositional-llms-querying-basketball-stats-with-gpt-3-statmuse-langchain.html)
+- chatting about baseball stats: https://gist.github.com/geoffreylitt/b345e5a3fcc18368df04b49f6924c217 [[about](https://www.geoffreylitt.com/2023/01/29/fun-with-compositional-llms-querying-basketball-stats-with-gpt-3-statmuse-langchain.html)
 
 Recently announced [ChatGPT plugins](https://openai.com/blog/chatgpt-plugins) [[docs](https://platform.openai.com/docs/plugins/introduction)] demonstrate this pattern. The 'langchain` tooling can also hook into ChatGPT plugins: https://python.langchain.com/en/latest/modules/agents/tools/examples/chatgpt_plugins.html 
 
