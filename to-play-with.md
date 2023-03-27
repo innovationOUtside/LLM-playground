@@ -1,94 +1,162 @@
-Transformers.js - transformers in the browser
-https://xenova.github.io/transformers.js/
+# Running and Tuning LLMs on a Local Device
 
-TextSQL natural language queries, eg over US population dataset
-https://github.com/caesarHQ/textSQL
+To date, large language models (LLMs) have typically been offered as a remote service, or required powerful machines on which to run them.
 
-Open source LLM  
-Dolly / eleuther ai https://github.com/databrickslabs/dolly
+In distance education and open education settings, this can provide a barrier to access:
 
-langchain model toolchains / generic API?
+- if services are offered remotely, learners are tethered by the requirement of maintaining a network connection and cannot necessarily work offline;
+- for local running, learners require access to a powerful computer, and potential a computer with a GPU.
+
+Recent (March, 2023) demonstrations have show that it is possible to run LLMs on relatively small machines, albeit with limited performance.
+
+One issue with using off the shelf LLMs is that they are "general purpose" in the sense that they have been trained on a wide range of generic texts.
+
+In a learning context, we typically present materials that relate to a specific domain. Whilst we may still be able to admit of a certain amount of unreliablity in presented texts (knowing that a narrator is potentially unreliable may require us to be take a more critical stance towards the texts we are presented with), we might also prefer to provide learners with access to models that are more likely to recall or summarise, rather than hallucinate, answers to particular questions of explanations of particular topics.
+
+For educators wishing to explore the use of LLMs in 
+creating new learning experiences or developing "conversational" materials in a particular domain, being able to develop models locally can improve productivity and support innovation.
+
+This note provides a living document to help track various approaches and proofs of concepts relating to the running and fine-tuning/domain specific training of LLMs, particularly on local devices.
+
+## Toolchains for working with LLMs
+
+So that we don't lock in to a particular LLM, ideally we want to work with an abstraction layer that allows us to plug in locally and remotely accessed LLMs as required, and as new models become available.
+
+- `langchain` model toolchains provide a generic Python API to multiple models
 https://langchain.readthedocs.io/en/latest/index.html
-eg try this out on a a set of course materials in md
-https://github.com/hwchase17/notion-qa
-https://github.com/logspace-ai/langflow
-https://github.com/PotatoSpudowski/fastLLaMa
 
+- `langflow` — graphical UI for `langchain` https://github.com/logspace-ai/langflow
 
-Running LLM on local devices eg Stanford Alpaca
-https://simonwillison.net/2023/Mar/13/alpaca/
-https://github.com/antimatter15/alpaca.cpp
-https://replicate.com/blog/replicate-alpaca
-https://cocktailpeanut.github.io
-https://github.com/tloen/alpaca-lora
-https://github.com/abetlen/llama-cpp-python
+- simple Python bindings for `llama.cpp`
+  - https://github.com/abetlen/llama-cpp-python
+  - https://github.com/thomasantony/llamacpp-python
+  - `fastLLaMa` https://github.com/PotatoSpudowski/fastLLaMa
 
-## Plugin frameworks
+## Running LLMs on local devices
 
-- Llama plugin POC https://github.com/lastmile-ai/llama-retrieval-plugin
+The [`llama.cpp`](https://github.com/ggerganov/llama.cpp) port of the Facebook Llama model demonstrated how the model could be quantised to create models with a relatively small download size (4GB for the 7m model) that were capable of running on a home computer.
 
-Useful embeddings (scikitlearn pipelines for various embedding generators)
+This bootstrapped a large number of projects based around the `llama.cpp` model:
+
+- Stanford Alpaca — `llama.cpp` model trained against 52k QandA pairs generated from ChatGPT https://github.com/antimatter15/alpaca.cpp
+- tutorials on training your own Alpaca style model:
+  - https://simonwillison.net/2023/Mar/13/alpaca/
+  - https://replicate.com/blog/replicate-alpaca
+- reproducing the Stanford Alpaca results using low-rank adaptation (LoRA) https://github.com/tloen/alpaca-lora
+- cleaned training data derived from original Stanford Alpaca training set https://github.com/gururise/AlpacaDataCleaned
+- `Dalai` — simple app for running Stanford Alpaca locally https://cocktailpeanut.github.io/dalai/#/
+
+## Localised fine tunings
+
+- Italian instruction tuned Llama model https://github.com/teelinsan/camoscio
+
+## Llama / Alpaca fine tuning
+
+As well as the tutorials describing how to recreate the original Stanford Alpaca model, there's a growing number of examples of training using alternative training sets, eg for custom domains.
+
+- speak in the style of Homer Simpson https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson
+
+- simple UI to support fine tunign of Alpaca model https://github.com/lxe/simple-llama-finetuner
+
+- issue — *How to finetune model with a new knowledge?* https://github.com/tloen/alpaca-lora/issues/45
+
+- fine tuning against code https://github.com/sahil280114/codealpaca 
+
+## Alternatives to Llama
+
+Whilst the original proof-of-concept "local running" models were based on the Facebook Llama model, examples of other fine-tuenable "DIY LLMs" are becoming available:
+
+- Dolly / eleuther AI (open source model) https://github.com/databrickslabs/dolly
+
+- BLOOM multingual LLM basis https://github.com/linhduongtuan/BLOOM-LORA
+
+## Generating Embeddings
+
+Fine-tunings try to embed knowledge in the model to give a sense of recall. An alternative way of trying to reduce hallucinations is to retrieve content from a knowledge source that is likely to answer a question, and then use that to augment the prompt.
+
+LLMs can be used to support semantic search by creating embeddings for a source text and allowing a look-up from an embedding generated for a search query. *This pattern is increasingly be wrapped in higher level, more abstracted patterns, APIs, etc.*
+
+- *How to implement Q&A against your documentation with GPT3, embeddings and Datasette* https://simonwillison.net/2023/Jan/13/semantic-search-answers/
+- useful embeddings (scikitlearn pipelines for various embedding generators)
 https://github.com/koaning/embetter  
 - example of generating embeddings with llama https://github.com/DiegoMoralesRoman/pyllamma.cpp/blob/master/test.py
-
-##Localised fine tunings
-https://github.com/teelinsan/camoscio
-
-Data wrangling with foundation models
+- index unstructured data with foundation models
 https://github.com/hazyresearch/meerkat
-
-Sentence transformers - semantic search in py
+- sentence transformers - semantic search in py
 https://www.sbert.net/index.html
 
 
-Llama / Alpaca fine tuning
-https://www.davidmaiolo.com/portfolio-item/the-rise-of-alpaca-ai-a-cheaper-alternative-to-chatgpt/
-https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson
-https://github.com/lxe/simple-llama-finetuner
-https://github.com/tloen/alpaca-lora/issues/45
-https://github.com/gururise/AlpacaDataCleaned
-- fine tuning against codehttps://github.com/sahil280114/codealpaca 
-
-BLOOM multingual trained llm basis 
-- https://github.com/linhduongtuan/BLOOM-LORA
-
-## Custom knowledge source
-https://github.com/geeks-of-data/knowledge-gpt
-
-
 ## Memorising transformers
-https://pub.towardsai.net/extending-transformers-by-memorizing-up-to-262k-tokens-f9e066108777
-https://github.com/lucidrains/memorizing-transformers-pytorch
 
+Memorising transformers could offer an interesting way of injecting additional knowledge into a conversational chain:
 
-## React
+- *How To Scale Transformers’ Memory up to 262K Tokens* https://pub.towardsai.net/extending-transformers-by-memorizing-up-to-262k-tokens-f9e066108777
+- implementation of Memorizing Transformers in Pytorch https://github.com/lucidrains/memorizing-transformers-pytorch
 
-https://interconnected.org/home/2023/03/16/singularity
-https://til.simonwillison.net/llms/python-react-pattern
+## Current and Next Generation UIs
 
+Many LLMs are capable of generating code or other text based scripts. Currently (March, 2023), these are presented as text (potentially, syntax highlighted text) in a simple text based UI. However, the code typically cannot be executed and its outputs displayed, nor rendered (eg in the case of text based diagram descriptions using mermaid.js or Graphviz dot syntax), inline.
 
-## In-browser / WASM
+For conversational use alongside a fixed text, or a conversation with a set of pre-existing materials that provide a knowledge base (for example, a text book or a set of learning course materials), what sort of UI would be most natural?
 
-Stable diffusion https://github.com/mlc-ai/web-stable-diffusion  
-Llama https://github.com/ggerganov/llama.cpp/issues/97
+For other modalities (e.g. image generation), what sort of emerging UIs are available for accessing LLMs and other generative models?
 
+- `Dalai` — simple app for running Stanford Alpaca locally https://cocktailpeanut.github.io/dalai/#/
 
-## Next gen Uis
+- `TextSQL` — natural language queries, e.g. over US population dataset
+https://github.com/caesarHQ/textSQL
 
-Gpt4 assisted coding environment
+- ask questions over a Notion database using natural language (based on `langchain`) https://github.com/hwchase17/notion-qa *TO DO: try this out with some OpenLearn materials...*
+
+- GPT4 assisted coding environment
 https://www.cursor.so/
 
-Jupyter-ai
+- Jupyter-ai
 https://github.com/jupyterlab/jupyter-ai
 
-## Image models
-
-Stable Diffusion locally served web-ui
+- Stable Diffusion locally served web-ui
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
+See also: *ReAct-Based Patterns*
+
+## ReAct-Based Patterns
+
+The [*ReAct pattern*](https://react-lm.github.io/) interleaves text generation with the ability to act on generated texts, as well as using action outputs as further inputs to the conversation.
+
+- examples https://interconnected.org/home/2023/03/16/singularity
+- simple Python API for adding Wikipedia lookups, calculator execution, and search against a Datasette/SQLite database to OpenAI LLM conversations: https://til.simonwillison.net/llms/python-react-pattern
+
+- example connectors for scraping websites, local document sources (PDF, Powerpoint, docx, Youtube video audio etc) to act as knowledge source in chatgpt prompt https://github.com/geeks-of-data/knowledge-gpt
+
+Recently announced [ChatGPT plugins](https://openai.com/blog/chatgpt-plugins) [[docs](https://platform.openai.com/docs/plugins/introduction)] demonstrate this pattern.
+
+## Plugin frameworks
+
+Following the release of [ChatGPT plugins](https://platform.openai.com/docs/plugins/introduction), to what extent might we be able to create plugin frameworks for other models, and to what extent might we be able to create a generic plugin framework that could be applied to any LLM in similar way to how tools such as `langchain` provide an abstraction layer over calling different LLMs.
+
+- Llama plugin POC https://github.com/lastmile-ai/llama-retrieval-plugin
 
 ## Evaluation
 
-Evaluating language chains
+How can we test or evaluate LLMs?
+
+- Evaluating language chains
 https://blog.langchain.dev/evaluation/
 
+## Browser Based LLMs
+
+There are various demonstrations of running LLMs and other generative systems purely in a browser. To run models in the browser, two implementation approaches are possible: Javascript based models and WASM models.
+
+The WASM approach also supports the running of models in server or locally hosted containers. These containers are much lighter than "full fat" Docker containers, but can also be run using Docker machinery ([Docker + WASM announcement](https://www.docker.com/blog/docker-wasm-technical-preview/)).
+
+### Javascript models
+
+- Transformers.js - transformers in the browser
+https://xenova.github.io/transformers.js/
+
+### WASM-based Generative Models
+
+Examples of WASM based generative models (text, images, etc).
+
+- Stable diffusion https://github.com/mlc-ai/web-stable-diffusion  
+- Llama https://github.com/ggerganov/llama.cpp/issues/97
