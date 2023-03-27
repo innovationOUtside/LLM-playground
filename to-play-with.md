@@ -62,8 +62,6 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - fine tuning against code https://github.com/sahil280114/codealpaca 
 
-- fine tuning on the Stanford Encyclopedia of Philosophy to support philosophical dialogues https://github.com/ssaillant/Pythagoras
-
 ## Alternatives to Llama
 
 Whilst the original proof-of-concept "local running" models were based on the Facebook Llama model, examples of other fine-tuenable "DIY LLMs" are becoming available:
