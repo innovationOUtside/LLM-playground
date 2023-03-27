@@ -49,6 +49,8 @@ https://github.com/tloen/alpaca-lora/issues/45
 https://github.com/gururise/AlpacaDataCleaned
 - fine tuning against codehttps://github.com/sahil280114/codealpaca 
 
+BLOOM multingual trained llm basis 
+- https://github.com/linhduongtuan/BLOOM-LORA
 
 ## Custom knowledge source
 https://github.com/geeks-of-data/knowledge-gpt
