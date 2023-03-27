@@ -89,7 +89,7 @@ https://github.com/hazyresearch/meerkat
 - sentence transformers - semantic search in py
 https://www.sbert.net/index.html
 
-In passing, this looks like a handy SQLite plugin for dropping in vector-based similarity search: [sqlitevss](https://github.com/asg017/sqlite-vss)
+In passing, this looks like a handy SQLite plugin for dropping in vector-based similarity search: [sqlitevss](https://github.com/asg017/sqlite-vss) [[about](https://observablehq.com/@asg017/introducing-sqlite-vss)]
 
 ## Memorising transformers
 
