@@ -56,7 +56,7 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - speak in the style of Homer Simpson https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson
 
-- simple UI to support fine tunign of Alpaca model https://github.com/lxe/simple-llama-finetuner
+- simple UI to support fine tuning of Alpaca model https://github.com/lxe/simple-llama-finetuner
 
 - issue — *How to finetune model with a new knowledge?* https://github.com/tloen/alpaca-lora/issues/45
 
