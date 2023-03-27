@@ -142,7 +142,7 @@ Recently announced [ChatGPT plugins](https://openai.com/blog/chatgpt-plugins) [[
 
 Following the release of [ChatGPT plugins](https://platform.openai.com/docs/plugins/introduction), to what extent might we be able to create plugin frameworks for other models, and to what extent might we be able to create a generic plugin framework that could be applied to any LLM in similar way to how tools such as `langchain` provide an abstraction layer over calling different LLMs.
 
-- Llama plugin POC https://github.com/lastmile-ai/llama-retrieval-plugin
+- Llama retrieval plugin POC https://github.com/lastmile-ai/llama-retrieval-plugin [[about](https://blog.lastmileai.dev/using-openais-retrieval-plugin-with-llama-d2e0b6732f14)]
 
 ## Evaluation
 
