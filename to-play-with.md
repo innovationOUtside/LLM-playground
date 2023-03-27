@@ -114,6 +114,8 @@ https://www.cursor.so/
 - Jupyter-ai
 https://github.com/jupyterlab/jupyter-ai
 
+- text generation web UI (gradio web UI for accessing a wide range of models, incl. llama) https://github.com/oobabooga/text-generation-webui
+
 - Stable Diffusion locally served web-ui
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
