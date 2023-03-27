@@ -26,7 +26,10 @@ https://github.com/abetlen/llama-cpp-python
 
 
 Useful embeddings (scikitlearn pipelines for various embedding generators)
-https://github.com/koaning/embetter
+https://github.com/koaning/embetter  
+- example of generating embeddings with llama https://github.com/DiegoMoralesRoman/pyllamma.cpp/blob/master/test.py
+
+
 
 Data wrangling with foundation models
 https://github.com/hazyresearch/meerkat
