@@ -70,6 +70,10 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
 
 - BLOOM multingual LLM basis https://github.com/linhduongtuan/BLOOM-LORA
 
+- RWKV (recurrent NN rather than transformers)
+  - base model https://github.com/BlinkDL/RWKV-LM
+  - chat version https://github.com/BlinkDL/ChatRWKV
+
 ## Generating Embeddings
 
 Fine-tunings try to embed knowledge in the model to give a sense of recall. An alternative way of trying to reduce hallucinations is to retrieve content from a knowledge source that is likely to answer a question, and then use that to augment the prompt.
