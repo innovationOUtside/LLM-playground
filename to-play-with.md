@@ -103,6 +103,7 @@ For other modalities (e.g. image generation), what sort of emerging UIs are avai
 
 - llama / Alpaca UIs
   - `Dalai` — simple app for running Stanford Alpaca locally https://cocktailpeanut.github.io/dalai/#/
+  - user-friendly web UI for the alpaca.cpp language — https://github.com/ViperX7/Alpaca-Turbo
   - text generation web UI (gradio web UI for accessing a wide range of models, incl. llama) https://github.com/oobabooga/text-generation-webui
 
 - Jupyter-ai (JupyterLab extension providing an API to geenrative AI services)
