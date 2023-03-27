@@ -93,7 +93,7 @@ Memorising transformers could offer an interesting way of injecting additional k
 - *How To Scale Transformers’ Memory up to 262K Tokens* https://pub.towardsai.net/extending-transformers-by-memorizing-up-to-262k-tokens-f9e066108777
 - implementation of Memorizing Transformers in Pytorch https://github.com/lucidrains/memorizing-transformers-pytorch
 
-## Current and Next Generation UIs
+## Locally Run UIs
 
 Many LLMs are capable of generating code or other text based scripts. Currently (March, 2023), these are presented as text (potentially, syntax highlighted text) in a simple text based UI. However, the code typically cannot be executed and its outputs displayed, nor rendered (eg in the case of text based diagram descriptions using mermaid.js or Graphviz dot syntax), inline.
 
@@ -101,7 +101,12 @@ For conversational use alongside a fixed text, or a conversation with a set of p
 
 For other modalities (e.g. image generation), what sort of emerging UIs are available for accessing LLMs and other generative models?
 
-- `Dalai` — simple app for running Stanford Alpaca locally https://cocktailpeanut.github.io/dalai/#/
+- llama / Alpaca UIs
+  - `Dalai` — simple app for running Stanford Alpaca locally https://cocktailpeanut.github.io/dalai/#/
+  - text generation web UI (gradio web UI for accessing a wide range of models, incl. llama) https://github.com/oobabooga/text-generation-webui
+
+- Jupyter-ai (JupyterLab extension providing an API to geenrative AI services)
+https://github.com/jupyterlab/jupyter-ai
 
 - `TextSQL` — natural language queries, e.g. over US population dataset
 https://github.com/caesarHQ/textSQL
@@ -111,10 +116,6 @@ https://github.com/caesarHQ/textSQL
 - GPT4 assisted coding environment
 https://www.cursor.so/
 
-- Jupyter-ai
-https://github.com/jupyterlab/jupyter-ai
-
-- text generation web UI (gradio web UI for accessing a wide range of models, incl. llama) https://github.com/oobabooga/text-generation-webui
 
 - Stable Diffusion locally served web-ui
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
