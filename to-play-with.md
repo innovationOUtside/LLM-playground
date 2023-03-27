@@ -29,7 +29,8 @@ Useful embeddings (scikitlearn pipelines for various embedding generators)
 https://github.com/koaning/embetter  
 - example of generating embeddings with llama https://github.com/DiegoMoralesRoman/pyllamma.cpp/blob/master/test.py
 
-
+##Localised fine tunings
+https://github.com/teelinsan/camoscio
 
 Data wrangling with foundation models
 https://github.com/hazyresearch/meerkat
