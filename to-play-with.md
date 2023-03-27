@@ -45,6 +45,7 @@ https://replicate.com/blog/fine-tune-llama-to-speak-like-homer-simpson
 https://github.com/lxe/simple-llama-finetuner
 https://github.com/tloen/alpaca-lora/issues/45
 https://github.com/gururise/AlpacaDataCleaned
+- fine tuning against codehttps://github.com/sahil280114/codealpaca 
 
 
 ## Custom knowledge source
