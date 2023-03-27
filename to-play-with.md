@@ -28,7 +28,7 @@ https://langchain.readthedocs.io/en/latest/index.html
 - `langflow` — graphical UI for `langchain` https://github.com/logspace-ai/langflow
 
 - simple Python bindings for `llama.cpp`
-  - https://github.com/abetlen/llama-cpp-python
+  - https://github.com/abetlen/llama-cpp-python ([example langchain usage](https://github.com/abetlen/llama-cpp-python/blob/main/examples/langchain_custom_llm.py))
   - https://github.com/thomasantony/llamacpp-python
   - `fastLLaMa` https://github.com/PotatoSpudowski/fastLLaMa
 
