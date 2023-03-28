@@ -66,7 +66,7 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 ## Alternatives to Llama
 
-Whilst the original proof-of-concept "local running" models were based on the Facebook Llama model, examples of other fine-tuenable "DIY LLMs" are becoming available:
+Whilst the original proof-of-concept "local running" models were based on the Facebook Llama model, examples of other fine-tuneable "DIY LLMs" are becoming available:
 
 - Dolly / eleuther AI (open source model) https://github.com/databrickslabs/dolly
 
@@ -123,7 +123,7 @@ https://github.com/caesarHQ/textSQL
 
 - ask questions over a Notion database using natural language (based on `langchain`) https://github.com/hwchase17/notion-qa *TO DO: try this out with some OpenLearn materials...*
 
-- "personify" a book to have a conversation with it https://github.com/batmanscode/Talk2Book
+- "personify" a book to have a conversation with it https://github.com/batmanscode/Talk2Book ; this should be updated to use th new [`langchain` *Retrieval* chain](https://blog.langchain.dev/retrieval/).
 
 - GPT4 assisted coding environment
 https://www.cursor.so/
