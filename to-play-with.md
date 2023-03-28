@@ -62,6 +62,8 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - fine tuning against code https://github.com/sahil280114/codealpaca 
 
+- lightweight adapter for fine-tuning instruction-following LLaMA models https://github.com/ZrrSkywalker/LLaMA-Adapter
+
 ## Alternatives to Llama
 
 Whilst the original proof-of-concept "local running" models were based on the Facebook Llama model, examples of other fine-tuenable "DIY LLMs" are becoming available:
