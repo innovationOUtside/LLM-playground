@@ -34,7 +34,7 @@ https://langchain.readthedocs.io/en/latest/index.html
 
 ## Running LLMs on local devices
 
-The [`llama.cpp`](https://github.com/ggerganov/llama.cpp) port of the Facebook Llama model demonstrated how the model could be quantised to create models with a relatively small download size (4GB for the 7m model) that were capable of running on a home computer.
+The [`llama.cpp`](https://github.com/ggerganov/llama.cpp) port of the Facebook Llama model demonstrated how the model could be quantised to create models with a relatively small download size (4GB for the 7B model) that were capable of running on a home computer.
 
 This bootstrapped a large number of projects based around the `llama.cpp` model:
 
