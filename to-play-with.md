@@ -125,6 +125,8 @@ https://github.com/caesarHQ/textSQL
 
 - "personify" a book to have a conversation with it https://github.com/batmanscode/Talk2Book ; this should be updated to use th new [`langchain` *Retrieval* chain](https://blog.langchain.dev/retrieval/).
 
+- GPT-4 & LangChain — ChatGPT Chatbot for Large PDF Files https://github.com/mayooear/gpt4-pdf-chatbot-langchain
+
 - GPT4 assisted coding environment
 https://www.cursor.so/
 
