@@ -123,9 +123,10 @@ https://github.com/caesarHQ/textSQL
 
 - ask questions over a Notion database using natural language (based on `langchain`) https://github.com/hwchase17/notion-qa *TO DO: try this out with some OpenLearn materials...*
 
+- "personify" a book to have a conversation with it https://github.com/batmanscode/Talk2Book
+
 - GPT4 assisted coding environment
 https://www.cursor.so/
-
 
 - Stable Diffusion locally served web-ui
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
