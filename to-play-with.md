@@ -134,7 +134,7 @@ The [*ReAct pattern*](https://react-lm.github.io/) interleaves text generation w
 
 - examples https://interconnected.org/home/2023/03/16/singularity
 - simple Python API for adding Wikipedia lookups, calculator execution, and search against a Datasette/SQLite database to OpenAI LLM conversations: https://til.simonwillison.net/llms/python-react-pattern
-- example connectors for scraping websites, local document sources (PDF, Powerpoint, docx, Youtube video audio etc) to act as knowledge source in chatgpt prompt https://github.com/geeks-of-data/knowledge-gpt
+- example connectors for scraping websites, local document sources (PDF, Powerpoint, docx, Youtube video audio etc) to act as knowledge source in chatgpt prompt https://github.com/geeks-of-data/knowledge-gpt ([issue relating to finding open source LLM alternatives](https://github.com/geeks-of-data/knowledge-gpt/issues/64))
 
 Note that `langchain` provides hooks for a wide range of *agents*, including search, a Python REPL, etc: https://python.langchain.com/en/latest/modules/agents.html
 
