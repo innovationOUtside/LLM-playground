@@ -116,6 +116,8 @@ For other modalities (e.g. image generation), what sort of emerging UIs are avai
 - Jupyter-ai (JupyterLab extension providing an API to geenrative AI services)
 https://github.com/jupyterlab/jupyter-ai
 
+- ChatGPT error handler for Jupyter https://github.com/hack-r/ChatGPT_for_Jupyter
+
 - `TextSQL` — natural language queries, e.g. over US population dataset
 https://github.com/caesarHQ/textSQL
 
