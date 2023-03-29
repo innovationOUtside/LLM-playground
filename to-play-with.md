@@ -45,6 +45,7 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - reproducing the Stanford Alpaca results using low-rank adaptation (LoRA) https://github.com/tloen/alpaca-lora
 - cleaned training data derived from original Stanford Alpaca training set https://github.com/gururise/AlpacaDataCleaned
 - `Dalai` — simple app for running Stanford Alpaca locally https://cocktailpeanut.github.io/dalai/#/
+- `alpaca.cpp` ("locally run an instruction-tuned chat-style LLM") — https://github.com/antimatter15/alpaca.cpp
 
 ## Localised fine tunings
 
