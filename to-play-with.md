@@ -124,7 +124,7 @@ https://github.com/caesarHQ/textSQL
 
 - ask questions over a Notion database using natural language (based on `langchain`) https://github.com/hwchase17/notion-qa *TO DO: try this out with some OpenLearn materials...*
 
-- "personify" a book to have a conversation with it https://github.com/batmanscode/Talk2Book ; this should be updated to use th new [`langchain` *Retrieval* chain](https://blog.langchain.dev/retrieval/).
+- "personify" a book to have a conversation with it https://github.com/batmanscode/Talk2Book ; (this should be updated to use the new [`langchain` *Retrieval* chain]) (https://blog.langchain.dev/retrieval/).
 
 - GPT-4 & LangChain — ChatGPT Chatbot for Large PDF Files https://github.com/mayooear/gpt4-pdf-chatbot-langchain
 
