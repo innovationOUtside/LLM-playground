@@ -36,6 +36,8 @@ https://langchain.readthedocs.io/en/latest/index.html
 
 The [`llama.cpp`](https://github.com/ggerganov/llama.cpp) port of the Facebook Llama model demonstrated how the model could be quantised to create models with a relatively small download size (4GB for the 7B model) that were capable of running on a home computer.
 
+*See also [`lit-llama`](https://github.com/Lightning-AI/lit-llama), Apache2 licensed equivalent to `llama` (GPL).*
+
 This bootstrapped a large number of projects based around the `llama.cpp` model:
 
 - Stanford Alpaca — `llama.cpp` model trained against 52k QandA pairs generated from ChatGPT https://github.com/antimatter15/alpaca.cpp
