@@ -51,7 +51,7 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - alpaca / WIP example of local LLM class for `langchain` — https://gist.github.com/lukestanley/6517823485f88a40a09979c1a19561ce
 - alpaca in langchain from a HuggingFace model — https://medium.com/artificialis/crafting-an-engaging-chatbot-harnessing-the-power-of-alpaca-and-langchain-66a51cc9d6de
 - alpaca in langchain using model from Huggingface https://m.youtube.com/watch?v=v6sF8Ed3nTE
-- GPT4All - trained on ~800k GPT-3.5-Turbo generated prompts https://github.com/nomic-ai/gpt4all ; [example notebook / py client]](https://github.com/nomic-ai/nomic/blob/main/examples/GPT4All.ipynb) — `nomic` package then `import nomic.gpt4all as gpt4all` and `gpt4all.prompt(p)`
+- GPT4All - trained on ~800k GPT-3.5-Turbo generated prompts https://github.com/nomic-ai/gpt4all ; [example notebook / py client](https://github.com/nomic-ai/nomic/blob/main/examples/GPT4All.ipynb) — `nomic` package then `import nomic.gpt4all as gpt4all` and `gpt4all.prompt(p)`
 
 ## Localised fine tunings
 
