@@ -50,6 +50,7 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - `alpaca.cpp` ("locally run an instruction-tuned chat-style LLM") — https://github.com/antimatter15/alpaca.cpp
 - alpaca in langchain from a HuggingFace model — https://medium.com/artificialis/crafting-an-engaging-chatbot-harnessing-the-power-of-alpaca-and-langchain-66a51cc9d6de
 - alpaca in lanchain using model from Huggingface https://m.youtube.com/watch?v=v6sF8Ed3nTE
+- GPT4All - trained on ~800k GPT-3.5-Turbo generated prompts https://github.com/nomic-ai/gpt4all
 
 ## Localised fine tunings
 
