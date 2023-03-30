@@ -48,6 +48,7 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - cleaned training data derived from original Stanford Alpaca training set https://github.com/gururise/AlpacaDataCleaned
 - `Dalai` — simple app for running Stanford Alpaca locally https://cocktailpeanut.github.io/dalai/#/
 - `alpaca.cpp` ("locally run an instruction-tuned chat-style LLM") — https://github.com/antimatter15/alpaca.cpp
+- alpaca / WIP example of local LLM class for `langchain` — https://gist.github.com/lukestanley/6517823485f88a40a09979c1a19561ce
 - alpaca in langchain from a HuggingFace model — https://medium.com/artificialis/crafting-an-engaging-chatbot-harnessing-the-power-of-alpaca-and-langchain-66a51cc9d6de
 - alpaca in langchain using model from Huggingface https://m.youtube.com/watch?v=v6sF8Ed3nTE
 - GPT4All - trained on ~800k GPT-3.5-Turbo generated prompts https://github.com/nomic-ai/gpt4all
