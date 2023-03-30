@@ -187,3 +187,8 @@ Examples of WASM based generative models (text, images, etc).
 
 - Stable diffusion https://github.com/mlc-ai/web-stable-diffusion  
 - Llama https://github.com/ggerganov/llama.cpp/issues/97
+
+## Large Multimodal Models (LMM)
+
+OpenFlamingo https://laion.ai/blog/open-flamingo/
+
