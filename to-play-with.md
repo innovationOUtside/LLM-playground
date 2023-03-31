@@ -169,8 +169,8 @@ Following the release of [ChatGPT plugins](https://platform.openai.com/docs/plug
 
 How can we test or evaluate LLMs?
 
-- Evaluating language chains
-https://blog.langchain.dev/evaluation/
+- Evaluating language chains https://blog.langchain.dev/evaluation/
+- metric to test LLM's for progress in eliminating hallucinations https://github.com/manyoso/haltt4llm
 
 ## Browser Based Generative Models
 
