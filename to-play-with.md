@@ -1,4 +1,4 @@
-# Running and Tuning LLMs on a Local Device
+by# Running and Tuning LLMs on a Local Device
 
 To date, large language models (LLMs) have typically been offered as a remote service, or required powerful machines on which to run them.
 
@@ -52,6 +52,7 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - alpaca in langchain from a HuggingFace model — https://medium.com/artificialis/crafting-an-engaging-chatbot-harnessing-the-power-of-alpaca-and-langchain-66a51cc9d6de
 - alpaca in langchain using model from Huggingface https://m.youtube.com/watch?v=v6sF8Ed3nTE
 - GPT4All - trained on ~800k GPT-3.5-Turbo generated prompts https://github.com/nomic-ai/gpt4all ; [example notebook / py client](https://github.com/nomic-ai/nomic/blob/main/examples/GPT4All.ipynb) — `nomic` package then `import nomic.gpt4all as gpt4all` and `gpt4all.prompt(p)`
+- alpaca HF langchain conversation demo - https://gist.github.com/cedrickchee/9daedfff817e2b437012b3104bdbc5f3
 
 ## Localised fine tunings
 
