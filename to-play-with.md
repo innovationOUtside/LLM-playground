@@ -55,6 +55,10 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - alpaca HF langchain conversation demo - https://gist.github.com/cedrickchee/9daedfff817e2b437012b3104bdbc5f3
 - `langchain` alapac PR — https://github.com/hwchase17/langchain/pull/2297
 
+## Models That Require a Commodity GPU
+
+- https://github.com/Lightning-AI/lit-llama
+- 
 ## Localised fine tunings
 
 - Italian instruction tuned Llama model https://github.com/teelinsan/camoscio
