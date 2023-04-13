@@ -59,7 +59,8 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 
 - https://github.com/Lightning-AI/lit-llama
 - training https://github.com/bublint/ue5-llama-lora eg using https://github.com/oobabooga/text-generation-webui
-- 
+- training https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama
+
 ## Localised fine tunings
 
 - Italian instruction tuned Llama model https://github.com/teelinsan/camoscio
