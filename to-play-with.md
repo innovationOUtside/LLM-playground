@@ -58,6 +58,7 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 ## Models That Require a Commodity GPU
 
 - https://github.com/Lightning-AI/lit-llama
+- training https://github.com/bublint/ue5-llama-lora eg using https://github.com/oobabooga/text-generation-webui
 - 
 ## Localised fine tunings
 
