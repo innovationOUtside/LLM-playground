@@ -64,6 +64,7 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 ## Localised fine tunings
 
 - Italian instruction tuned Llama model https://github.com/teelinsan/camoscio
+- example of model traind on chat messages (incl. recipe) https://www.izzy.co/blogs/robo-boys.html
 
 ## Llama / Alpaca fine tuning
 
