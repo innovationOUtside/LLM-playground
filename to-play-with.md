@@ -187,6 +187,8 @@ There are various demonstrations of running LLMs and other generative systems pu
 
 The WASM approach also supports the running of models in server or locally hosted containers. These containers are much lighter than "full fat" Docker containers, but can also be run using Docker machinery (eg [Docker + WASM announcement](https://www.docker.com/blog/docker-wasm-technical-preview/) and [Docker+Wasm Technical Preview 2](https://www.docker.com/blog/announcing-dockerwasm-technical-preview-2/)).
 
+vicuna-7b LLm in a browser: https://github.com/mlc-ai/web-llm
+
 ### Javascript models
 
 - Transformers.js - transformers in the browser
