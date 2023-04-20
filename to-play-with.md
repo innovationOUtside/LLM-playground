@@ -92,6 +92,10 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
   - base model https://github.com/BlinkDL/RWKV-LM
   - chat version https://github.com/BlinkDL/ChatRWKV
 
+## API
+
+OpenAI compatible API wrapper for local LLMs https://github.com/go-skynet/LocalAI
+
 ## Generating Embeddings
 
 Fine-tunings try to embed knowledge in the model to give a sense of recall. An alternative way of trying to reduce hallucinations is to retrieve content from a knowledge source that is likely to answer a question, and then use that to augment the prompt.
