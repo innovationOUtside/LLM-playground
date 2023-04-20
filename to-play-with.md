@@ -92,6 +92,8 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
   - base model https://github.com/BlinkDL/RWKV-LM
   - chat version https://github.com/BlinkDL/ChatRWKV
 
+- StableLM https://github.com/Stability-AI/StableLM
+
 ## API
 
 OpenAI compatible API wrapper for local LLMs https://github.com/go-skynet/LocalAI
