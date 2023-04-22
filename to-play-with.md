@@ -195,6 +195,8 @@ The WASM approach also supports the running of models in server or locally hoste
 
 vicuna-7b LLm in a browser: https://github.com/mlc-ai/web-llm
 
+<1 GB model running in a browser with no web GPU requirement?! https://github.com/lxe/wasm-gpt/tree/wasm-demo
+
 ### Javascript models
 
 - Transformers.js - transformers in the browser
