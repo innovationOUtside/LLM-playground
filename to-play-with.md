@@ -93,6 +93,7 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
   - chat version https://github.com/BlinkDL/ChatRWKV
 
 - StableLM https://github.com/Stability-AI/StableLM
+- flan-alpaca https://github.com/declare-lab/flan-alpaca
 - LaMini-LM https://github.com/mbzuai-nlp/LaMini-LM
 
 ## API
