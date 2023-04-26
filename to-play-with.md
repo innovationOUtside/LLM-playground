@@ -1,4 +1,4 @@
-by# Running and Tuning LLMs on a Local Device
+# Running and Tuning LLMs on a Local Device
 
 To date, large language models (LLMs) have typically been offered as a remote service, or required powerful machines on which to run them.
 
@@ -93,6 +93,7 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
   - chat version https://github.com/BlinkDL/ChatRWKV
 
 - StableLM https://github.com/Stability-AI/StableLM
+- LaMini-LM https://github.com/mbzuai-nlp/LaMini-LM
 
 ## API
 
