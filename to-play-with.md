@@ -157,6 +157,8 @@ https://www.cursor.so/
 - Stable Diffusion locally served web-ui
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
+- Coauthor interface https://github.com/minalee-research/coauthor-interface
+
 See also: *ReAct-Based Patterns*
 
 ## ReAct-Based Patterns
