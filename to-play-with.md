@@ -80,6 +80,11 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - lightweight adapter for fine-tuning instruction-following LLaMA models https://github.com/ZrrSkywalker/LLaMA-Adapter
 
+
+## Training
+
+- Replicate: https://replicate.com/docs/guides/fine-tune-a-language-model https://github.com/fofr/replicate-llm-training
+
 ## Alternatives to Llama
 
 Whilst the original proof-of-concept "local running" models were based on the Facebook Llama model, examples of other fine-tuneable "DIY LLMs" are becoming available:
