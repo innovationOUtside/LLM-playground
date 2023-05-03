@@ -30,6 +30,8 @@ https://langchain.readthedocs.io/en/latest/index.html
   - https://github.com/abetlen/llama-cpp-python ([example langchain usage](https://github.com/abetlen/llama-cpp-python/blob/main/examples/langchain_custom_llm.py))
   - https://github.com/thomasantony/llamacpp-python
   - `fastLLaMa` https://github.com/PotatoSpudowski/fastLLaMa
+  
+ - `LocalAI` — "drop-in replacement API compatible with OpenAI for local CPU inferencing, based on llama.cpp, gpt4all, rwkv.cpp and ggml, including support GPT4ALL-J" https://github.com/go-skynet/LocalAI
 
 ## Running LLMs on local devices
 
