@@ -13,8 +13,7 @@ One issue with using off the shelf LLMs is that they are "general purpose" in th
 
 In a learning context, we typically present materials that relate to a specific domain. Whilst we may still be able to admit of a certain amount of unreliablity in presented texts (knowing that a narrator is potentially unreliable may require us to be take a more critical stance towards the texts we are presented with), we might also prefer to provide learners with access to models that are more likely to recall or summarise, rather than hallucinate, answers to particular questions of explanations of particular topics.
 
-For educators wishing to explore the use of LLMs in 
-creating new learning experiences or developing "conversational" materials in a particular domain, being able to develop models locally can improve productivity and support innovation.
+For educators wishing to explore the use of LLMs in creating new learning experiences or developing "conversational" materials in a particular domain, being able to develop models locally can improve productivity and support innovation.
 
 This note provides a living document to help track various approaches and proofs of concepts relating to the running and fine-tuning/domain specific training of LLMs, particularly on local devices.
 
@@ -170,6 +169,8 @@ https://www.cursor.so/
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 - Coauthor interface https://github.com/minalee-research/coauthor-interface
+
+- Question extractor "extract question/answer pairs automatically from existing textual data" ?can we do the same with a local LLM, not ChatGPT? https://github.com/nestordemeure/question_extractor 
 
 See also: *ReAct-Based Patterns*
 
