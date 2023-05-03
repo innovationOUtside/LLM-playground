@@ -102,6 +102,11 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
 - flan-alpaca https://github.com/declare-lab/flan-alpaca
 - LaMini-LM https://github.com/mbzuai-nlp/LaMini-LM
 
+
+## Personalities
+
+eg in GPT4All GUI, [`ParisNeo/PyAIPersonality`](https://github.com/ParisNeo/PyAIPersonality) etc
+
 ## API
 
 OpenAI compatible API wrapper for local LLMs https://github.com/go-skynet/LocalAI
