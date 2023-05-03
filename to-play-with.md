@@ -64,7 +64,8 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 
 - Italian instruction tuned Llama model https://github.com/teelinsan/camoscio
 - example of model traind on chat messages (incl. recipe) https://www.izzy.co/blogs/robo-boys.html
-- replit code model (good human performance also?) replit-code-v1-3b
+- replit code model (good human performance also?) [replit-code-v1-3b](https://huggingface.co/replit/replit-code-v1-3b)
+- turbopilot — " self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM" https://github.com/ravenscroftj/turbopilot
 
 ## Llama / Alpaca fine tuning
 
