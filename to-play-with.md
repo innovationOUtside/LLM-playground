@@ -101,7 +101,7 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
 - StableLM https://github.com/Stability-AI/StableLM
 - flan-alpaca https://github.com/declare-lab/flan-alpaca
 - LaMini-LM https://github.com/mbzuai-nlp/LaMini-LM
-
+- WizardLM https://github.com/nlpxucan/WizardLM
 
 ## Personalities
 
