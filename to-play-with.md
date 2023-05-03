@@ -102,6 +102,7 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
 - flan-alpaca https://github.com/declare-lab/flan-alpaca
 - LaMini-LM https://github.com/mbzuai-nlp/LaMini-LM
 - WizardLM https://github.com/nlpxucan/WizardLM
+- ReplitLM / Replit LLM https://github.com/replit/ReplitLM/
 
 ## Personalities
 
