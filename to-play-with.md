@@ -56,12 +56,15 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - alpaca HF langchain conversation demo - https://gist.github.com/cedrickchee/9daedfff817e2b437012b3104bdbc5f3
 - `langchain` alapac PR — https://github.com/hwchase17/langchain/pull/2297
 
-## Models That Require a Commodity GPU / Running on Arbitrary Platforms
+## Models That Require a Commodity GPU
 
 - https://github.com/Lightning-AI/lit-llama
 - training https://github.com/bublint/ue5-llama-lora eg using https://github.com/oobabooga/text-generation-webui
 - training https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama
-- arbitray platfrom — " allows any language models to be deployed natively on a diverse set of hardware backends and native applications"  https://github.com/mlc-ai/mlc-llm
+
+## Running on Arbitrary Platforms
+
+- mlc-llm — "allows any language model to be deployed natively on a diverse set of hardware backends and native applications" phones etc https://github.com/mlc-ai/mlc-llm
 
 ## Localised fine tunings
 
