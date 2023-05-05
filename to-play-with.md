@@ -196,7 +196,7 @@ Recently announced [ChatGPT plugins](https://openai.com/blog/chatgpt-plugins) [[
 
 BabyAGI4all - small autonomous AI agent based on [BabyAGI](https://github.com/yoheinakajima/babyagi)  that runs with local LLMs — https://github.com/kroll-software/babyagi4all
 
-## Question and Answer / QandA / QnA Patterns
+## Question and Answer / QandA / QnA / QA Patterns
 
 PaperQA — "question and answering from PDFs or text files" https://github.com/whitead/paper-qa
 
@@ -215,7 +215,7 @@ How can we test or evaluate LLMs?
 
 - Evaluating language chains https://blog.langchain.dev/evaluation/
 - metric to test LLM's for progress in eliminating hallucinations https://github.com/manyoso/haltt4llm
-- Langachain Question and Answer Auto Evaluator https://autoevaluator.langchain.com/
+- Langachain Question and Answer Auto Evaluator https://autoevaluator.langchain.com/ [docs](https://github.com/langchain-ai/auto-evaluator)
 
 ## Browser Based Generative Models
 
