@@ -194,6 +194,8 @@ It's quite easy to hook in custom defined agents into `langchain`. For example:
 
 Recently announced [ChatGPT plugins](https://openai.com/blog/chatgpt-plugins) [[docs](https://platform.openai.com/docs/plugins/introduction)] demonstrate this pattern. The 'langchain` tooling can also hook into ChatGPT plugins: https://python.langchain.com/en/latest/modules/agents/tools/examples/chatgpt_plugins.html 
 
+BabyAGI4all - small autonomous AI agent based on [BabyAGI](https://github.com/yoheinakajima/babyagi)  that runs with local LLMs — https://github.com/kroll-software/babyagi4all
+
 ## Plugin frameworks
 
 Following the release of [ChatGPT plugins](https://platform.openai.com/docs/plugins/introduction), to what extent might we be able to create plugin frameworks for other models, and to what extent might we be able to create a generic plugin framework that could be applied to any LLM in similar way to how tools such as `langchain` provide an abstraction layer over calling different LLMs.
