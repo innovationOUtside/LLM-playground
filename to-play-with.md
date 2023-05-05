@@ -215,6 +215,7 @@ How can we test or evaluate LLMs?
 
 - Evaluating language chains https://blog.langchain.dev/evaluation/
 - metric to test LLM's for progress in eliminating hallucinations https://github.com/manyoso/haltt4llm
+- Langachain Question and Answer Auto Evaluator https://autoevaluator.langchain.com/
 
 ## Browser Based Generative Models
 
