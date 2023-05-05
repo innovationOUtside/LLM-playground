@@ -198,6 +198,8 @@ BabyAGI4all - small autonomous AI agent based on [BabyAGI](https://github.com/yo
 
 ## Question and Answer / QandA / QnA Patterns
 
+PaperQA — "question and answering from PDFs or text files" https://github.com/whitead/paper-qa
+
 Simple QnA using ggml-vicuna-7b-1.1-q4_2 https://gist.github.com/kroll-software/94328628cb069965dc34c7e594f50d09
 
 ## Plugin frameworks
