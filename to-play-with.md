@@ -17,6 +17,8 @@ For educators wishing to explore the use of LLMs in creating new learning experi
 
 This note provides a living document to help track various approaches and proofs of concepts relating to the running and fine-tuning/domain specific training of LLMs, particularly on local devices.
 
+Where's it going? Useful leaked paper from inside Google on the rapid rise of local LLMs, and the threat to big models — *Google "We Have No Moat, And Neither Does OpenAI"*  https://www.semianalysis.com/p/google-we-have-no-moat-and-neither
+
 ## Toolchains for working with LLMs
 
 So that we don't lock in to a particular LLM, ideally we want to work with an abstraction layer that allows us to plug in locally and remotely accessed LLMs as required, and as new models become available.
