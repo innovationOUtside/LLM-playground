@@ -201,6 +201,8 @@ BabyAGI4all - small autonomous AI agent based on [BabyAGI](https://github.com/yo
 
 ## Question and Answer / QandA / QnA / QA Patterns
 
+TH early demo - *Using langchain To Run Queries Against GPT4All in the Context of a Single Documentary Knowledge Source* https://blog.ouseful.info/2023/04/04/langchain-query-gpt4all-against-knowledge-source/
+
 PaperQA — "question and answering from PDFs or text files" https://github.com/whitead/paper-qa
 
 Simple QnA using ggml-vicuna-7b-1.1-q4_2 https://gist.github.com/kroll-software/94328628cb069965dc34c7e594f50d09
