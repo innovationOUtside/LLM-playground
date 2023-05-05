@@ -234,3 +234,7 @@ Examples of WASM based generative models (text, images, etc).
 
 OpenFlamingo https://laion.ai/blog/open-flamingo/
 
+## Training From Scratch
+
+MinimalGPT — " aconcise, adaptable, and streamlined code framework that encompasses the essential components necessary for the construction, training, inference, and fine-tuning of the GPT model" https://github.com/abhaskumarsinha/MinimalGPT/
+
