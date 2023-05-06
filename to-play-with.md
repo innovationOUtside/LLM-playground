@@ -255,6 +255,12 @@ Microsoft JARVIS — "connect numerous AI models for solving complicated AI task
 
 OpenFlamingo https://laion.ai/blog/open-flamingo/
 
+## Large Open Source Models
+
+Facebook's LLaMa weights leak kicked the whole thing off, but there are licnse conditions attached. What of openly licensed models, that may get the local treatment?
+
+- Mozilla MPT-7B https://www.mosaicml.com/blog/mpt-7b
+
 ## Training From Scratch
 
 MinimalGPT — " aconcise, adaptable, and streamlined code framework that encompasses the essential components necessary for the construction, training, inference, and fine-tuning of the GPT model" https://github.com/abhaskumarsinha/MinimalGPT/
