@@ -68,12 +68,13 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 
 - mlc-llm — "allows any language model to be deployed natively on a diverse set of hardware backends and native applications" phones etc https://github.com/mlc-ai/mlc-llm
 
-## Localised fine tunings
+## Localised fine tunings / Code Generating Models
 
 - Italian instruction tuned Llama model https://github.com/teelinsan/camoscio
-- example of model traind on chat messages (incl. recipe) https://www.izzy.co/blogs/robo-boys.html
+- example of model trained on chat messages (incl. recipe) https://www.izzy.co/blogs/robo-boys.html
 - replit code model (good human performance also?) [replit-code-v1-3b](https://huggingface.co/replit/replit-code-v1-3b)
 - turbopilot — " self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM" https://github.com/ravenscroftj/turbopilot
+- Starcoder - "trained on source code and natural language text. Its training data incorporates more that 80 different programming languages as well as text extracted from github issues and commits and from notebooks" https://github.com/bigcode-project/starcoder
 
 ## Llama / Alpaca fine tuning
 
@@ -245,7 +246,6 @@ Examples of WASM based generative models (text, images, etc).
 
 - Stable diffusion https://github.com/mlc-ai/web-stable-diffusion  
 - Llama https://github.com/ggerganov/llama.cpp/issues/97
-
 
 ## Co-ordinated Models
 
