@@ -211,6 +211,8 @@ PaperQA — "question and answering from PDFs or text files" https://github.com/
 
 Simple QnA using ggml-vicuna-7b-1.1-q4_2 https://gist.github.com/kroll-software/94328628cb069965dc34c7e594f50d09
 
+- simple qa gpt4all-j https://github.com/imartinez/privateGPT
+
 ## Plugin frameworks
 
 Following the release of [ChatGPT plugins](https://platform.openai.com/docs/plugins/introduction), to what extent might we be able to create plugin frameworks for other models, and to what extent might we be able to create a generic plugin framework that could be applied to any LLM in similar way to how tools such as `langchain` provide an abstraction layer over calling different LLMs.
