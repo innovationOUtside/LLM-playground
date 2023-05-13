@@ -95,6 +95,10 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - Replicate: https://replicate.com/docs/guides/fine-tune-a-language-model https://github.com/fofr/replicate-llm-training
 
+## Search / Retrieval Assist
+
+Documennt summary assist for QA https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec
+
 ## Alternatives to Llama
 
 Whilst the original proof-of-concept "local running" models were based on the Facebook Llama model, examples of other fine-tuneable "DIY LLMs" are becoming available:
