@@ -90,6 +90,9 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - lightweight adapter for fine-tuning instruction-following LLaMA models https://github.com/ZrrSkywalker/LLaMA-Adapter
 
+- "Structural Alignment: Modifying Transformers (like GPT) to Follow a JSON Schema" (@newhouseb) https://github.com/newhouseb/clownfish
+
+- validating output formats eg JSON, relative to a provided grammar (@GrantSlatton) https://github.com/grantslatton/llama.cpp/commit/007e26a99d485007f724957fa8545331ab8d50c3 
 
 ## Training
 
