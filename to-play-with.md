@@ -90,6 +90,7 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - lightweight adapter for fine-tuning instruction-following LLaMA models https://github.com/ZrrSkywalker/LLaMA-Adapter
 
+- Fine-tuning a WizardLM model / LORA https://betterprogramming.pub/fine-tuning-my-first-wizardlm-lora-ca75aa35363d
 
 ## Validating / Constraining Model Output Formats
 
