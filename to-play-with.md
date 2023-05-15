@@ -90,6 +90,13 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - lightweight adapter for fine-tuning instruction-following LLaMA models https://github.com/ZrrSkywalker/LLaMA-Adapter
 
+
+## Validating / Constraining Model Output Formats
+
+Could we get a model to generate valid JSON, XML (acc. to an XML doc spec like OU-XML), Mermaid.js etc etc given a grammar file? Could we generate a grammar from a set of examples, and a set of tests? Could we then inspect the tests to give us an idea of whether the grammar seems to be generating what we'd expect?
+
+- Guardrails— "specifying structure and type, validating and correcting the outputs of large language models (LLMs)" https://github.com/ShreyaR/guardrails
+
 - "Structural Alignment: Modifying Transformers (like GPT) to Follow a JSON Schema" (@newhouseb) https://github.com/newhouseb/clownfish
 
 - validating output formats eg JSON, relative to a provided grammar (@GrantSlatton) https://github.com/grantslatton/llama.cpp/commit/007e26a99d485007f724957fa8545331ab8d50c3 
