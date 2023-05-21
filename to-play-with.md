@@ -109,7 +109,7 @@ Could we get a model to generate valid JSON, XML (acc. to an XML doc spec like O
 
 ## Search / Retrieval Assist
 
-Documennt summary assist for QA https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec
+Document summary assist for QA https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec
 
 ## Alternatives to Llama
 
@@ -229,6 +229,8 @@ PaperQA — "question and answering from PDFs or text files" https://github.com/
 Simple QnA using ggml-vicuna-7b-1.1-q4_2 https://gist.github.com/kroll-software/94328628cb069965dc34c7e594f50d09
 
 - simple qa gpt4all-j https://github.com/imartinez/privateGPT
+
+- Private GPT simple qa from docset, Huggingface sentence transformer embeddings: https://github.com/imartinez/privateGPT
 
 ## Plugin frameworks
 
