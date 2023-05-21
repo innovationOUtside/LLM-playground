@@ -128,6 +128,7 @@ Whilst the original proof-of-concept "local running" models were based on the Fa
 - LaMini-LM https://github.com/mbzuai-nlp/LaMini-LM
 - WizardLM https://github.com/nlpxucan/WizardLM
 - ReplitLM / Replit LLM https://github.com/replit/ReplitLM/ https://huggingface.co/replit/replit-code-v1-3b
+- Wizard Vicuna https://github.com/melodysdreamj/WizardVicunaLM
 
 ## Personalities
 
