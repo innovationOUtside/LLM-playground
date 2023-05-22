@@ -140,7 +140,7 @@ OpenAI compatible API wrapper for local LLMs https://github.com/go-skynet/LocalA
 
 Microsoft guidance - LLM templating language https://github.com/microsoft/guidance
 
-- Simon Willison cli / command-linr LLM tools https://simonwillison.net/2023/May/18/cli-tools-for-llms/
+- Simon Willison cli / command-linr LLM tools https://simonwillison.net/2023/May/18/cli-tools-for-llms/ ( for improved usability, if this is a clixk app, see trogon tool for creating a textual UI around it https://github.com/Textualize/trogon )
 
 ## Generating Embeddings
 
