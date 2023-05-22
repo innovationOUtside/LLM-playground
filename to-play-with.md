@@ -138,7 +138,9 @@ eg in GPT4All GUI, [`ParisNeo/PyAIPersonality`](https://github.com/ParisNeo/PyAI
 
 OpenAI compatible API wrapper for local LLMs https://github.com/go-skynet/LocalAI
 
-Microsoft guigance - LLM templating language https://github.com/microsoft/guidance
+Microsoft guidance - LLM templating language https://github.com/microsoft/guidance
+
+- Simon Willison cli / command-linr LLM tools https://simonwillison.net/2023/May/18/cli-tools-for-llms/
 
 ## Generating Embeddings
 
