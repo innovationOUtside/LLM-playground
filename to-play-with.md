@@ -93,6 +93,8 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - Fine-tuning a WizardLM model / LORA https://betterprogramming.pub/fine-tuning-my-first-wizardlm-lora-ca75aa35363d
 
+- fine tune Red Pyjama 3B https://github.com/togethercomputer/OpenChatKit/blob/main/docs/finetuning-RedPajama-3B.md
+
 ## Validating / Constraining Model Output Formats
 
 Could we get a model to generate valid JSON, XML (acc. to an XML doc spec like OU-XML), Mermaid.js etc etc given a grammar file? Could we generate a grammar from a set of examples, and a set of tests? Could we then inspect the tests to give us an idea of whether the grammar seems to be generating what we'd expect?
