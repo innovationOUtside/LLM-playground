@@ -94,6 +94,7 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 - Fine-tuning a WizardLM model / LORA https://betterprogramming.pub/fine-tuning-my-first-wizardlm-lora-ca75aa35363d
 
 - fine tune Red Pyjama 3B https://github.com/togethercomputer/OpenChatKit/blob/main/docs/finetuning-RedPajama-3B.md
+- xturing fast local fine tuning https://github.com/stochasticai/xturing
 
 ## Validating / Constraining Model Output Formats
 
