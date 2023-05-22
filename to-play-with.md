@@ -138,6 +138,8 @@ eg in GPT4All GUI, [`ParisNeo/PyAIPersonality`](https://github.com/ParisNeo/PyAI
 
 OpenAI compatible API wrapper for local LLMs https://github.com/go-skynet/LocalAI
 
+Microsoft guigance - LLM templating language https://github.com/microsoft/guidance
+
 ## Generating Embeddings
 
 Fine-tunings try to embed knowledge in the model to give a sense of recall. An alternative way of trying to reduce hallucinations is to retrieve content from a knowledge source that is likely to answer a question, and then use that to augment the prompt.
