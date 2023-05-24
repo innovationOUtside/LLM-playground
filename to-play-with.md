@@ -95,6 +95,7 @@ As well as the tutorials describing how to recreate the original Stanford Alpaca
 
 - fine tune Red Pyjama 3B https://github.com/togethercomputer/OpenChatKit/blob/main/docs/finetuning-RedPajama-3B.md
 - xturing fast local fine tuning https://github.com/stochasticai/xturing
+- qlora /guanaco (various model sizes) https://github.com/artidoro/qlora 
 
 ## Validating / Constraining Model Output Formats
 
