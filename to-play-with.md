@@ -59,6 +59,8 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - `langchain` alpaca PR — https://github.com/hwchase17/langchain/pull/2297
 - langchain using HuggingFace models https://github.com/hwchase17/langchain/blob/master/docs/modules/models/llms/integrations/huggingface_hub.ipynb
 
+- falconLM (non-llama architecture) https://github.com/ggerganov/llama.cpp/issues/1602
+
 ## Models That Require a Commodity GPU
 
 - https://github.com/Lightning-AI/lit-llama
