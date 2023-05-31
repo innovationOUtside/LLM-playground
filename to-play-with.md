@@ -209,6 +209,8 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 - Question extractor "extract question/answer pairs automatically from existing textual data" ?can we do the same with a local LLM, not ChatGPT? https://github.com/nestordemeure/question_extractor 
 
+- chat UI with hooks to a large number of local LLMs https://github.com/deep-diver/LLM-As-Chatbot
+- 
 See also: *ReAct-Based Patterns*
 
 ## ReAct-Based Patterns
