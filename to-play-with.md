@@ -78,6 +78,8 @@ This bootstrapped a large number of projects based around the `llama.cpp` model:
 - replit code model (good human performance also?) [replit-code-v1-3b](https://huggingface.co/replit/replit-code-v1-3b)
 - turbopilot — " self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM" https://github.com/ravenscroftj/turbopilot
 - Starcoder - "trained on source code and natural language text. Its training data incorporates more that 80 different programming languages as well as text extracted from github issues and commits and from notebooks" https://github.com/bigcode-project/starcoder
+- WizardCoder LLM https://github.com/nlpxucan/WizardLM/blob/main/WizardCoder/README.md
+- VS Code extension for code completion against a local LLM server: https://marketplace.visualstudio.com/items?itemName=Morph.rift-vscode
 
 ## Llama / Alpaca fine tuning
 
