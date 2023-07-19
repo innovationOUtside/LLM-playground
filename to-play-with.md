@@ -216,7 +216,9 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui
 - chainlit UI builder https://github.com/Chainlit/chainlit
 
 - GPT4all-ui https://github.com/ParisNeo/gpt4all-ui
-- 
+
+- Ollama - simple install / ready access to popular models incl. llama 2 : https://github.com/jmorganca/ollama
+  
 See also: *ReAct-Based Patterns*
 
 ## ReAct-Based Patterns
