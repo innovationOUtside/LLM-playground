@@ -255,6 +255,9 @@ Simple QnA using ggml-vicuna-7b-1.1-q4_2 https://gist.github.com/kroll-software/
 - localGPT (based on private GPT, different model, embeddings) https://github.com/PromtEngineer/localGPT
 
 - Db integration https://github.com/csunny/DB-GPT
+
+- Document Question and answering with Langchain (tutorial) https://amaarora.github.io/posts/2023-07-27_Document_Question_Answering_with_LangChain.html 
+
 ## Plugin frameworks
 
 Following the release of [ChatGPT plugins](https://platform.openai.com/docs/plugins/introduction), to what extent might we be able to create plugin frameworks for other models, and to what extent might we be able to create a generic plugin framework that could be applied to any LLM in similar way to how tools such as `langchain` provide an abstraction layer over calling different LLMs.
